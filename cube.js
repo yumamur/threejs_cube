@@ -99,4 +99,4 @@ function animateCube() {
 	renderer.render( scene, camera );
 }
 
-export {animateCube,renderer};
+renderer.setAnimationLoop(animateCube);
